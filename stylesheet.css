@@ -6,9 +6,9 @@ you'll learn about it later. */
 
 
 .header {
-  background: lightgrey;
+  background: black;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-evenly;
   padding: 8px;
@@ -16,7 +16,7 @@ you'll learn about it later. */
 
 
 .logo {
-  color: black;
+  color: white;
   font-size: 32px;
   font-weight: 900;
 }
@@ -25,7 +25,7 @@ you'll learn about it later. */
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: black;
+  color:white;
 }
 
 ul {
@@ -46,11 +46,12 @@ ul {
 body {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
+    background-color:steelblue;
   }
   
   img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit:fill;
     border: 3px solid black;
     border-radius: 15px;
@@ -58,10 +59,11 @@ body {
   }
   
   .title {
-    font-size: 72px;
+    font-size: 90px;
     font-weight: 900;
     margin-bottom: 32px;
     padding-top: 100px;
+    color:black;
 
   }
 
